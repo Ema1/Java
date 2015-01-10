@@ -11,7 +11,7 @@ public class MyNewClassTest {
 	int c;
 	@Before
 	public void setUp() throws Exception {
-		c=20;
+		c=30;
 	}
 
 	@After
@@ -21,7 +21,7 @@ public class MyNewClassTest {
 	@Test
 	public final void testadd() {
 		
-		boolean val = (new MyNewClass()).add(15, 5, c);
+		boolean val = (new MyNewClass()).add(15, 15, c);
 		assertTrue(val);
 			
 		
